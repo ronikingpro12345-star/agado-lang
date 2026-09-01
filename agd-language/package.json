@@ -1,0 +1,29 @@
+{
+  "name": "agd-language",
+  "displayName": "AGD Language",
+  "description": "AGD language support",
+  "version": "0.0.1",
+  "engines": {
+  "vscode": "^1.70.0"
+},
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "agd",
+        "aliases": ["AGD", "agd"],
+        "extensions": [".agd"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+   "grammars": [
+  {
+    "language": "agd",
+    "scopeName": "source.agd",
+    "path": "./syntaxes/agd.tmLanguage.json"
+  }
+]
+  }
+}

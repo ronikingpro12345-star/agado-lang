@@ -1,0 +1,22 @@
+using: ioput;
+func: bool king1() {
+    return true;
+}
+func: int king2() {
+    return 1;
+}
+func: string king3() {
+    return "hello";
+}
+func: char king4() {
+    return 'a';
+}
+func: double king5() {
+    return 1.00;
+}
+let: bool a = king1(); 
+let: int b = king2();
+let: string c = king3();
+let: char d = king4();
+let: double e = king5();
+op: a,b,c,d,e ;

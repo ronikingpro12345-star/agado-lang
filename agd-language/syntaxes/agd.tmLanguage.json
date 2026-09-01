@@ -1,0 +1,23 @@
+{
+  "scopeName": "source.agd",
+  "fileTypes": ["agd"],
+  "patterns": [
+   {
+  "name": "keyword.control.agd",
+  "match": "\\b(using|let|if|elif|else|for|while|break|continue|op|ip|cond|step|func|return|ss|checkpoint|rollback):?"
+},
+    {
+      "name": "storage.type.agd",
+      "match": "\\b(int|double|float|longlong|char|bool|string|void)\\b"
+    },
+    {
+      "name": "constant.numeric.agd",
+      "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.agd",
+      "begin": "\"",
+      "end": "\""
+    } 
+  ]
+}

@@ -1,0 +1,6 @@
+using: ioput;
+let: int x = 100;
+while: x>5{
+op: x;
+x = x-10;
+}

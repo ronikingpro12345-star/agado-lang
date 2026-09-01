@@ -1,0 +1,11 @@
+using: ioput;
+func: int king() {
+return 1+2;
+}
+func: void king2() {
+    op: "good";
+    return;
+}
+let: x = king();
+op: x;
+king2();

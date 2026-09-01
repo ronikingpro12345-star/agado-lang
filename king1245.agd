@@ -1,0 +1,4 @@
+using: ioput;
+let:  x = 100;
+x = x+1;
+op: x;

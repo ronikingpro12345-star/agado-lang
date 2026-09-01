@@ -1,0 +1,14 @@
+# C++ / Compiled Binaries
+*.o
+*.exe
+*.dll
+*.out
+
+# CMake & Build Directories
+build/
+cmake-build-*/
+.ninja_*
+
+# Operating System & IDE Junk
+.vscode/
+*.pro.user
