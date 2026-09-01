@@ -41,4 +41,4 @@ ninja
 ---
 
 ## 📄 License
-Available under the [MIT License](LICENSE).
+Available under the [GNU Lesser General Public License v2.1](LICENSE).
